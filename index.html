@@ -213,8 +213,8 @@
 		        win.addEventListener(resizeEvent, recalCulate, false);
 		    })(document, window);
 		    // swiper
-		     var mySwiper = new Swiper ('.swiper-container', {
-    		   paginationClickable: true,
+		var mySwiper = new Swiper ('.swiper-container', {
+    	paginationClickable: true,
         spaceBetween: 30,
         centeredSlides: true,
         autoplay: 2500,
@@ -230,7 +230,7 @@
 		   var liWidth=lis[0].offsetWidth;
 
 		   document.onscroll = function(){
-		   	  console.log(document.body.scrollTop);
+		   	  // console.log(document.body.scrollTop);
 		   	  var st=document.body.scrollTop||document.documentElement.scrollTop;
 		   	
 		   var trgWidth=trg.offsetWidth;
