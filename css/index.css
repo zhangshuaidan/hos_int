@@ -1,0 +1,190 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 0.28rem;
+	line-height: 0.5rem;
+}
+/*头部内容*/
+.header{
+	width: 7.5rem;
+}
+.header img{
+	width: 100%;
+	height: 100%;
+}
+.header p{
+	font-size: 0.4rem;
+	font-weight: 500;
+	margin-left: 0.15rem;
+}
+.line{
+	margin-top: 0.2rem;
+	height: 0.04rem;
+	width: 100%;
+	background-color: #dcdcdc;
+}
+/*诊所介绍*/
+.color-g{
+	color: #00b1bb;
+}
+.instrduce{
+	margin:0.3rem 0; 
+	line-height: 0.5rem;
+}
+.show{
+	background-color: #00b1bb;
+	margin:0 0.3rem;
+	padding: 0.1rem;
+	color: #fff;
+	font-size: 0.4rem;
+	width: 1.6rem;
+	height: 0.6rem;
+}
+.ind-con p{
+	margin:0 0.2rem;
+}
+.service{
+	margin:0.5rem 0.2rem 0.5rem;
+}
+.address{
+	font-weight: bold;
+}
+
+.map>img{
+	height: 4.3rem;
+}
+.ind-line{
+	height: 0.2rem;
+	background-color: #dcdcdc;
+	margin: 0.4rem 0;
+}
+
+/*医生团队*/
+.doc-list{
+	color: #999999;
+}
+.doc-list>li>p>span{
+	font-size: 0.36rem;
+}
+.doc-list>li{
+	margin-top: 0.35rem;
+	margin-left: 0.3rem;
+}
+.doc-pic>img{
+	width: 1.4rem;
+	height: 1.4rem;
+}
+.doc-right{
+	margin-right: 0.2rem;
+	margin-top: 0.4rem;
+}
+.doc-right>img{
+	width: 0.3rem;
+	height: 0.45rem;
+}
+.pain-list>p:first-child{
+	margin-bottom: 0.1rem;
+}
+.pain-list>p>span{
+	padding: 0.02rem 0.25rem;
+	background-color: #f0f0f0;
+	color: #b9bbbb;
+	margin: 0.08rem;
+	font-size: 0.24rem;
+}
+.doc-main{
+margin-left: 2rem;
+}
+.doc-main>p>span{
+	font-size: 0.36rem;
+}
+
+
+
+/*会员套餐*/
+.member-menu{
+	margin-left: 0.3rem;
+}
+.member-menu>p{
+	margin-left: 0;
+}
+.card{
+	width: 4.25rem;
+	height: 0.6rem;
+	margin: 0.2rem  0;
+}
+.card>img{
+	width: 100%;
+	height: 100%;
+}
+.tab{
+	margin: 0.2rem 0;
+	height: 0.1rem;
+}
+
+/*常见问题*/
+.question{
+	padding-bottom: 0.9rem;
+}
+.qes-list{
+	margin-left: 0.3rem;
+}
+.qes-list>li{
+	
+	margin: 0.15rem 0 0.2rem;
+}
+.qes-list>li>p:first-child{
+	font-weight: bold;
+}
+.phone-call{
+width: 100%;
+position: fixed;
+height: 0.9rem;
+background-color: #00b1bb;
+color: #fff;
+font-size: 0.4rem;
+text-align: center;
+line-height: 0.9rem;
+left: 0;
+bottom: 0;
+}
+/*底部定位*/
+.nav{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background-color: #fff;
+	display: none;
+}
+.nav>ul{
+width: 100%;
+border-bottom: 1px solid #00b1bb;
+}
+.nav>ul>li{
+	height: 1.4rem;
+	float: left;
+	width: 33%;
+	text-align: center;
+	line-height: 1.4rem;
+	font-size: 0.36rem;
+}
+.active{
+	color: #00b1bb;
+}
+.nav>ul>li:nth-child(1){
+	border-right: 1px solid #dcdcdc;
+}
+.nav>ul>li:nth-child(2){
+	border-right: 1px solid #dcdcdc;
+}
+#trg{
+	top: 1rem;
+	left: 1rem;
+	position: absolute;
+	width: 0;
+	height: 0;
+    border: 0.2rem solid transparent;
+    border-bottom-color:#00b1bb; 
+	
+}
